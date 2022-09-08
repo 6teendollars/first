@@ -6,13 +6,42 @@
     position: absolute;
     object-fit: cover;
   }
+
+  .btn-tap{
+    text-align: center; 
+    	padding: 8px 10px; 
+    	border: solid 1px #5a0b0b00; 
+    	color: #7777777; 
+    	background:#5a0b0b00;
+    	tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear; 	
+    	text-transform: uppercase;
+        position: absolute;
+        object-fit: cover;
+        font-size: 70px;
+        padding: 10px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  }
+
+  .btn-tap:hover {
+    	color: rgb(245, 185, 75);
+    	background: rgb(0, 0, 0);
+    	tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear; 
+
+        
+  }
   
 .text {
     position: absolute;
     color: rgb(0, 0, 0);
     font-size: auto;
     padding: 10px;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
